@@ -1,3 +1,62 @@
 #score{
     display: none;
 }
+
+body {
+    background: #6699ff;
+}
+
+.container {
+    width: 300;
+    height: 400;
+    background-color: #66ff99;
+    text-align: center;
+    padding: 80px;
+    border: 2px solid #00ff99;
+    margin: 180px 80px;
+    font-family: sans-serif;
+    font-size: 28px;
+}
+.display {
+padding: 30px 20px;
+}
+
+.scoreSheet {
+    float: right;
+    margin-bottom: 300px;
+}
+
+#quiz1, #quiz2 {
+    box-shadow: aqua;
+    font-family: sans-serif;
+    font-size: 18px;
+    border-radius: 25%;
+    padding: 10px;
+}
+#quiz1:hover , #quiz2:hover {
+    color: #6699ff;
+}
+
+
+
+#options li:hover {
+    color: aqua;
+}
+
+#options li {
+border: 2px solid gray;
+background-color: dimgrey;
+font-family: sans-serif;
+padding: 15px 10px;
+text-align: left;
+list-style-type: none;
+margin: 0;
+
+}
+
+#question {
+    font-family: sans-serif;
+    font: 400;
+    font-weight: 500;
+    font-size: 35px;
+}
